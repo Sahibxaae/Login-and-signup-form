@@ -52,6 +52,7 @@ margin-bottom: 2.5rem;
     background: linear-gradient(to right,rgb(146, 0, 102), #8907f31f );
     border-radius: 30px;
     transition: 0.3s;
+    cursor: pointer;
 }
 .btn1{
     margin-left:2.8rem;
