@@ -1,0 +1,126 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.section-1{
+    background-image: url(images/pexels-james-wheeler-1519088.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 4rem;
+    position: relative;
+    top:20px;
+    
+}
+
+.header{
+border-radius: 20px;
+position: relative;
+box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.205);
+margin-bottom: 2.5rem;
+}
+.button-box{
+    width: 230px;
+    margin: 20px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.t-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline:none;
+    position: relative;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,rgb(146, 0, 102), #8907f31f );
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.btn1{
+    margin-left:2.8rem;
+}
+label{
+    color: white;
+}
+.login{
+    position:absolute;
+    transition: 0.5s;
+}
+.login-x{
+    padding: 3rem;
+    border: solid 3px white;
+    border-radius: 0.8rem;
+    color: white;
+    width: 250px;
+    display: block;
+    height: 350px;
+    backdrop-filter: blur(4px);
+    position: relative;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.164);
+    overflow: hidden;
+}
+
+ .txtbox{
+    width:15rem;
+    height:1.7rem;
+    border:solid white 2px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 1rem;
+    cursor:text;
+ }
+
+.login-btn{
+width:15.5rem;
+height: 2.5rem;
+background-color:rgb(4, 48, 145) ;
+border:solid rgb(6, 75, 165) 3px;
+border-radius:1rem;
+margin-top:18px;
+margin-bottom: 1rem;
+color:white;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.login-btn:hover{
+    background-color: rgba(6, 75, 165, 0.486);
+    color: white;
+}
+#log-in{
+    left:50px;
+}
+#signup-x{
+    left:450px;
+}
+.signup{
+position: absolute;
+transition: .5s;
+}
+.f-pass{
+    color: white;
+    margin-left: 4.5rem;
+}
+.f-pass:hover{
+    color: rgba(255, 255, 255, 0.322);
+    text-decoration:underline;
+
+}
